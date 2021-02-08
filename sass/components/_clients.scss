@@ -1,0 +1,62 @@
+/* Clients section */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-top: 50px;
+  margin-bottom: -30px;
+  margin-right: -30px;
+}
+
+.clients-list > .item {
+  margin-bottom: 30px;
+  margin-right: 30px;
+
+  @media screen and (max-width: 479px) {
+    width: calc(50% - 30px);
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 210px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+}
+
+.clients-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 90px;
+  width: 100%;
+
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  border-color: currentColor;
+
+  @extend %default-transition;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.clients-icon {
+  fill: currentColor;
+}

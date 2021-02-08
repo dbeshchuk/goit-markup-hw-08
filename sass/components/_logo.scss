@@ -1,0 +1,28 @@
+/*Logo*/
+
+.logo {
+  color: $accent-color;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.167em;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  .header-logo-end {
+    color: #000000;
+  }
+
+  .footer-logo-end {
+    color: $primary-background-color;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.192em;
+  }
+}

@@ -1,0 +1,83 @@
+/*Principles*/
+
+.principles {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.principles h3 {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.principles-box h3 {
+  margin-bottom: 10px;
+}
+
+.principles p {
+  line-height: 1.71;
+}
+
+// Principles item
+
+.principles-box {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.principles-box > .item {
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+
+.principles-box > .item + .item {
+  @media screen and (max-width: 767px) {
+    margin-top: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+  }
+}
+
+.principles-box > .item:nth-child(even) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 30px;
+  }
+}
+
+.principles-box > .item:nth-child(-n + 2) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 30px;
+  }
+}
+
+// Icon
+
+.principle-icon {
+  align-items: center;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+}

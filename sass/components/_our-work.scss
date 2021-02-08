@@ -1,0 +1,37 @@
+/*Our work*/
+
+.our-work {
+  padding-bottom: 94px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.our-work-block {
+  display: flex;
+  padding-top: 50px;
+}
+
+.our-work-item {
+  position: relative;
+  height: 294px;
+  padding-right: 30px;
+}
+
+.our-work-description {
+  position: absolute;
+  width: 370px;
+  left: 0;
+  bottom: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.our-work-description > h3 {
+  text-transform: uppercase;
+  color: $primary-background-color;
+}
