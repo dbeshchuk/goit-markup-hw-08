@@ -1,6 +1,6 @@
-# goit-markup-hw-07
+# goit-markup-hw-08
 
-Домашнее задание №7
+Домашнее задание №8
 
 Страница Github Pages:
-https://dbeshchuk.github.io/goit-markup-hw-07/
+https://dbeshchuk.github.io/goit-markup-hw-08/
