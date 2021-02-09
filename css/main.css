@@ -451,6 +451,7 @@ header .link.current {
 
 .menu-container {
   width: 100%;
+  z-index: 4;
 }
 
 @media screen and (max-width: 767px) {
@@ -673,7 +674,7 @@ header .link.current {
 .menu-button {
   margin-left: auto;
   margin-right: 10px;
-  z-index: 3;
+  z-index: 5;
   background-color: #ffffff;
 }
 

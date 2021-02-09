@@ -60,6 +60,7 @@ header .link {
 
 .menu-container {
   width: 100%;
+  z-index: 4;
 
   @media screen and (max-width: 767px) {
     display: none;
@@ -255,7 +256,7 @@ header .link {
 .menu-button {
   margin-left: auto;
   margin-right: 10px;
-  z-index: 3;
+  z-index: 5;
 
   background-color: $primary-background-color;
 
