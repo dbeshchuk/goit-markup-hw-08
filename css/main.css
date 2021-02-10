@@ -312,9 +312,7 @@ p {
 
 img {
   display: block;
-  max-width: -webkit-fill-available;
-  max-width: -moz-available;
-  max-width: fill-available;
+  max-width: 100%;
   height: auto;
 }
 
@@ -1099,6 +1097,10 @@ button {
   color: #ffffff;
 }
 
+.our-work-item:last-child {
+  padding-right: 0px;
+}
+
 /*Team*/
 .team {
   background-color: #f5f4fa;
@@ -1253,7 +1255,6 @@ footer .social-block {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-  display: none;
 }
 
 .clients-list {
