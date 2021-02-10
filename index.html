@@ -120,8 +120,8 @@
         <ul class="container our-work-block list">
           <li class="item our-work-item">
             <img 
-              srcset="./images/box1.jpg 1x, ./images/box1x2.jpg 2x,"
-              src="./images/box1.jpg" 
+              srcset="./images/box/box1.jpg 1x, ./images/box/box1x2.jpg 2x,"
+              src="./images/box/box1.jpg" 
               alt="Работа с планшетом" 
               width="370" 
             />
@@ -131,8 +131,8 @@
           </li>
           <li class="item our-work-item">
             <img 
-              srcset="./images/box2.jpg 1x, ./images/box2x2.jpg 2x,"
-              src="./images/box2.jpg" 
+              srcset="./images/box/box2.jpg 1x, ./images/box/box2x2.jpg 2x,"
+              src="./images/box/box2.jpg" 
               alt="Смартфон в руке" 
               width="370" 
             />
@@ -142,8 +142,8 @@
           </li>
           <li class="item our-work-item">
             <img 
-              srcset="./images/box3.jpg 1x, ./images/box3x2.jpg 2x,"
-              src="./images/box3.jpg" 
+              srcset="./images/box/box3.jpg 1x, ./images/box/box3x2.jpg 2x,"
+              src="./images/box/box3.jpg" 
               alt="Цветовая палитра на планшете" 
               width="370" 
             />
@@ -160,12 +160,29 @@
         
         <ul class="container team-box list">
           <li class="item">
-            <img 
+            <picture>
+              <source 
+                media="(min-width: 1200px)" 
+                srcset="./images/dev/dev1-1200.jpg 1x, ./images/dev/dev1-1200x2.jpg 2x,"
+              >
+              <source 
+                media="(min-width: 768px) and (max-width: 1199px)"
+                srcset="./images/dev/dev1-768.jpg 1x, ./images/dev/dev1-768x2.jpg 2x,"
+              >
+              <source 
+                media="(max-width: 767px)" 
+                srcset="./images/dev/dev1-480.jpg 1x, ./images/dev/dev1-480x2.jpg 2x,"
+              >
+              
+              <img src="./images/dev/dev1-480.jpg" width="450" alt="Фото Игоря Демьяненко">
+            </picture>
+            
+            <!-- <img 
               srcset="./images/dev1.jpg 1x, ./images/dev1x2.jpg 2x,"
               src="./images/dev1.jpg" 
               alt="Фото Игоря Демьяненко" 
               width="450" 
-            />
+            /> -->
             <h3>Игорь Демьяненко</h3>
             <p>Product Designer</p>
             <ul class="list social-block">
@@ -200,12 +217,30 @@
             </ul>
           </li>
           <li class="item">
-            <img 
+            <picture>
+              <source 
+                media="(min-width: 1200px)" 
+                srcset="./images/dev/dev2-1200.jpg 1x, ./images/dev/dev2-1200x2.jpg 2x,"
+              >
+              <source 
+                media="(min-width: 768px) and (max-width: 1199px)"
+                srcset="./images/dev/dev2-768.jpg 1x, ./images/dev/dev2-768x2.jpg 2x,"
+              >
+              <source 
+                media="(max-width: 767px)" 
+                srcset="./images/dev/dev2-480.jpg 1x, ./images/dev/dev2-480x2.jpg 2x,"
+              >
+              
+              <img src="./images/dev/dev2-480.jpg" width="450" alt="Фото Ольги Репиной">
+            </picture>
+
+
+            <!-- <img 
               srcset="./images/dev2.jpg 1x, ./images/dev2x2.jpg 2x,"
               src="./images/dev2.jpg" 
               alt="Фото Ольги Репиной" 
               width="450" 
-            />
+            /> -->
             <h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
             <ul class="list social-block">
@@ -240,12 +275,29 @@
             </ul>
           </li>
           <li class="item">
-            <img 
+            <picture>
+              <source 
+                media="(min-width: 1200px)" 
+                srcset="./images/dev/dev3-1200.jpg 1x, ./images/dev/dev3-1200x2.jpg 2x,"
+              >
+              <source 
+                media="(min-width: 768px) and (max-width: 1199px)"
+                srcset="./images/dev/dev3-768.jpg 1x, ./images/dev/dev3-768x2.jpg 2x,"
+              >
+              <source 
+                media="(max-width: 767px)" 
+                srcset="./images/dev/dev3-480.jpg 1x, ./images/dev/dev3-480x2.jpg 2x,"
+              >
+              
+              <img src="./images/dev/dev3-480.jpg" width="450" alt="Фото Николая Тарасова">
+            </picture>
+            
+            <!-- <img 
               srcset="./images/dev3.jpg 1x, ./images/dev3x2.jpg 2x,"
               src="./images/dev3.jpg" 
               alt="Фото Николая Тарасова" 
               width="450" 
-            />
+            /> -->
             <h3>Николай Тарасов</h3>
             <p>Marketing</p>
             <ul class="list social-block">
@@ -280,11 +332,29 @@
             </ul>
           </li>
           <li class="item">
-            <img 
+            <picture>
+              <source 
+                media="(min-width: 1200px)" 
+                srcset="./images/dev/dev4-1200.jpg 1x, ./images/dev/dev4-1200x2.jpg 2x,"
+              >
+              <source 
+                media="(min-width: 768px) and (max-width: 1199px)"
+                srcset="./images/dev/dev4-768.jpg 1x, ./images/dev/dev4-768x2.jpg 2x,"
+              >
+              <source 
+                media="(max-width: 767px)" 
+                srcset="./images/dev/dev4-480.jpg 1x, ./images/dev/dev4-480x2.jpg 2x,"
+              >
+              
+              <img src="./images/dev/dev4-480.jpg" width="450" alt="Фото Михаила Ермакова">
+            </picture>
+            
+            <!-- <img 
               srcset="./images/dev4.jpg 1x, ./images/dev4x2.jpg 2x,"
               src="./images/dev4.jpg" 
               alt="Фото Михаила Ермакова" 
-              width="450" />
+              width="450" /> -->
+
             <h3>Михаил Ермаков</h3>
             <p>UI Designer</p>
             <ul class="list social-block">

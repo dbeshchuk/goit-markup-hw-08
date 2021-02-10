@@ -14,27 +14,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 
   @media screen and (max-width: 767px) {
     justify-content: left;
+    max-width: 400px;
   }
 }
 
-.portfolio-nav .item:nth-child(-n + 3) {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 15px;
-  }
-}
-
-.portfolio-nav .item:nth-child(3) {
-  @media screen and (max-width: 767px) {
-    margin-right: auto;
-  }
-}
-
-.portfolio-nav .item + .item {
-  margin-left: 8px;
+.portfolio-nav .item {
+  margin-right: 8px;
+  margin-bottom: 15px;
 }
 
 .portfolio-nav .item:nth-child(4) {
@@ -162,7 +152,7 @@
   color: $primary-background-color;
   background-color: rgba(33, 150, 243, 0.9);
 
-  transform: translateY(100%);
+  transform: translateY(101%);
 
   @extend %default-transition;
 

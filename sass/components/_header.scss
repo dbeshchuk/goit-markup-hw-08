@@ -125,10 +125,10 @@ header .link {
 .auth-nav {
   display: flex;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     width: 300px;
     flex-direction: column-reverse;
-
+    
     margin-bottom: 32px;
   }
 
@@ -150,7 +150,7 @@ header .link {
   }
 
   & > .item {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       margin-bottom: 32px;
     }
   }
